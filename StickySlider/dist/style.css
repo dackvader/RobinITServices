@@ -6,15 +6,69 @@ a {
   text-decoration: none;
 }
 
-.et-hero-tabs,
-.et-slide {
+.et-hero-tabs {
+  background: #A0C3D2; /* #ABC4AA #AEBDCA */;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #A0C3D2;
+  text-align: center;
+  padding: 0 2em;
+}
+.et-slide-consult {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #AEBDCA;
+  text-align: center;
+  padding: 0 2em;
+}
+.et-slide-support {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #EAC7C7;
+  text-align: center;
+  padding: 0 2em;
+}
+.et-slide-protect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #F3DEBA;
+  text-align: center;
+  padding: 0 2em;
+}
+.et-slide-assist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #EAE0DA;
+  text-align: center;
+  padding: 0 2em;
+}
+.et-slide-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #675D50;
   text-align: center;
   padding: 0 2em;
 }
