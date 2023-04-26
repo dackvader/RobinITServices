@@ -61,6 +61,17 @@ a {
   text-align: center;
   padding: 0 2em;
 }
+.et-slide-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #BFCCB5;
+  text-align: center;
+  padding: 0 2em;
+}
 .et-slide-contact {
   display: flex;
   flex-direction: column;
