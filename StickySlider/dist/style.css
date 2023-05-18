@@ -151,3 +151,24 @@ a {
     font-size: 1rem;
   }
 }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 33.33%;
+  /* padding: 15px; */
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+body {
+  margin: 0;
+}
