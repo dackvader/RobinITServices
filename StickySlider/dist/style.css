@@ -26,7 +26,7 @@ a {
   position: relative;
   background: #AEBDCA;
   text-align: left;
-  padding: 0 2em;
+  padding: 0 5em;
 }
 .et-slide-consult h2 {
   text-align: center;
@@ -176,11 +176,39 @@ a {
     width: 100%;
   }
 }
-body {
-  margin: 0;
-}
+
+
+
 /* .img-it-asset-disposal {
   width: 150px;
   height: 150px;
   object-fit: cover;
 } */
+
+.container {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem; */
+  position: relative;
+  max-width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+p {
+  font-size: 14px;
+}
+
+.container img {
+  vertical-align: middle;
+  height: 300px;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
